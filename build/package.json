@@ -1,0 +1,24 @@
+{
+  "name": "horizontal_scroll_gallery",
+  "version": "1.0.0",
+  "description": "A horizontal image scroller gallery template for Concrete CMS.",
+  "author": "Fabian Bitter",
+  "license": "MIT",
+  "devDependencies": {
+    "laravel-mix": "^6.0.41",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.59.3",
+    "sass-loader": "^12.6.0"
+  },
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.5"
+  }
+}

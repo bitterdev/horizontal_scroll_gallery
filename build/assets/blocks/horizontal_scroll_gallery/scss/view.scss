@@ -1,0 +1,23 @@
+html {
+  &:not(.ccm-edit-mode) {
+    .horizontal-scroll-gallery {
+      .section {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        overscroll-behavior: none;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+      }
+
+      .panel {
+        display: flex;
+        height: 100vh;
+        aspect-ratio: 4 / 3; // fallback
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
