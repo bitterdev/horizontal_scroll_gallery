@@ -1,0 +1,5 @@
+{
+  "name": "bitter/horizontal_scroll_gallery",
+  "type": "concrete5-package",
+  "description": "A horizontal image scroller gallery template for Concrete CMS."
+}
