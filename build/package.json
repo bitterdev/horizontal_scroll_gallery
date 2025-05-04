@@ -5,10 +5,10 @@
   "author": "Fabian Bitter",
   "license": "MIT",
   "devDependencies": {
-    "laravel-mix": "^6.0.41",
+    "laravel-mix": "^6.0.49",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.59.3",
-    "sass-loader": "^12.6.0"
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5"
   },
   "scripts": {
     "development": "mix",
@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
-    "gsap": "^3.12.5"
+    "gsap": "^3.13.0"
   }
 }
